@@ -2,3 +2,9 @@ body{
     background-color: #ff4500;
     font-family: sans-serif;
 }
+#titulo{
+    margin: 0 auto;
+}
+#subtitulo{
+    margin: 9 auto;
+}
