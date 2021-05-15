@@ -1,11 +1,13 @@
 <html>
-    <head>
-        <title>Formulário de Cadastro</title>
-    </head>
 
-    <link rel="stylesheet" href="Formulario.css"/>
+<head>
+    <title>Formulário de Cadastro</title>
+</head>
 
-    <body>
+<link rel="stylesheet" href="Formulario.css" />
+
+<body>
+    <div id="cadastro">
         <div>
             <h1 id="titulo">Formulário de Cadastro</h1>
             <p id="subtitulo">Complete suas informações</p>
@@ -13,59 +15,57 @@
         </div>
 
         <form>
-            <fieldset class="grupo">
-                <div class="campo">
-                    <label for="nome"><strong>Nome:</strong></label>
-                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
-                    <label for="cpf"><strong>CPF:</strong></label>
-                    <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>             
-                </div>
+            <div class="campo">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+                <label for="cpf"><strong>CPF:</strong></label>
+                <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
+            </div>
 
-                <div class="campo">
-                    <label for="rg"><strong>RG:</strong></label>
-                    <input type="text" name="rg" id="rg" placeholder="Digite seu RG" required>
-                    <label><strong>Sexo:</strong></label>
-                    <label>
-                        <input type="radio" name="sexo" value="M">Masculino
-                    </label>
-                    <label>
-                        <input type="radio" name="sexo" value="F">Feminino
-                    </label>
-                </div>
-            </fieldset>
+            <div class="campo">
+                <label for="rg"><strong>RG:</strong></label>
+                <input type="text" name="rg" id="rg" placeholder="Digite seu RG" required>
+                <label><strong>Sexo:</strong></label>
+                <label>
+                    <input type="radio" name="sexo" value="M">Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="F">Feminino
+                </label>
+            </div>
 
-            <fieldset class="grupo">
-                <div class="campo">
-                    <label for="cep"><strong>CEP:</strong></label>
-                    <input type="text" name="cep" id="cep" placeholder="Digite seu CEP" required>
-                    <label for="endereco"><strong>Endereço:</strong></label>
-                    <input type="text" name="endereco" id="endereco" placeholder="Ex.: Rua, Avenida, etc.">
-                </div>
+            <div class="campo">
+                <label for="cep"><strong>CEP:</strong></label>
+                <input type="text" name="cep" id="cep" placeholder="Digite seu CEP" required>
+                <label for="endereco"><strong>Endereço:</strong></label>
+                <input type="text" name="endereco" id="endereco" placeholder="Ex.: Rua, Avenida, etc.">
+            </div>
 
-                <div class="campo">
-                    <label for="numero"><strong>Número:</strong></label>
-                    <input type="text" name="numero" id="numero" placeholder="Digite o Numero">
-                    <label for="bairro"><strong>Bairro:</strong></label>
-                    <input type="text" name="bairro" id="bairro" placeholder="Digite o Bairro">
-                </div>
+            <div class="campo">
+                <label for="numero"><strong>Número:</strong></label>
+                <input type="text" name="numero" id="numero" placeholder="Digite o Numero">
+                <label for="bairro"><strong>Bairro:</strong></label>
+                <input type="text" name="bairro" id="bairro" placeholder="Digite o Bairro">
+            </div>
 
-                <div class="campo">                
-                    <label for="cidade"><strong>Cidade:</strong></label>
-                    <input type="text" name="cidade" id="cidade" placeholder="Digite a Cidade">
-                    <label for="estado"><strong>Estado:</strong></label>
-                    <input type="text" name="estado" id="estado" placeholder="Digite o Estado">
-                </div>
-            
-                <div class="campo">
-                    <label for="telefone"><strong>Telefone:</strong></label>
-                    <input type="text" name="telefone" id="telefone" placeholder="Ex.:(21)2532-2532">
-                    <label for="celular"><strong>Celular:</strong></label>
-                    <input type="text" name="celular" id="celular" placeholder="Ex.:(21)98232-8232">
-                </div>
-            </fieldset>    
+            <div class="campo">
+                <label for="cidade"><strong>Cidade:</strong></label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite a Cidade">
+                <label for="estado"><strong>Estado:</strong></label>
+                <input type="text" name="estado" id="estado" placeholder="Digite o Estado">
+            </div>
+
+            <div class="campo">
+                <label for="telefone"><strong>Telefone:</strong></label>
+                <input type="text" name="telefone" id="telefone" placeholder="Ex.:(21)2532-2532">
+                <label for="celular"><strong>Celular:</strong></label>
+                <input type="text" name="celular" id="celular" placeholder="Ex.:(21)98232-8232">
+            </div>
 
             <button class="botao" type="submit">Enviar</button>
-            
+
         </form>
-    </body>
+    </div>    
+</body>
+
 </html>

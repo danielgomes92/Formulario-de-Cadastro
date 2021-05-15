@@ -1,10 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #ff4500;
     font-family: sans-serif;
 }
-#titulo{
+#cadastro{
+    background-color: #FFFF;
     margin: 0 auto;
+    width: fit-content;
+    padding: 5em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+#titulo{
+    margin:auto;
+    margin:auto;
 }
 #subtitulo{
-    margin: 9 auto;
+    margin-left: 0%;
+}
+form{
+
 }
