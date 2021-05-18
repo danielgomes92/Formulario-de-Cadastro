@@ -1,40 +1,8 @@
-/* Todos Elementos da página adicionado */
 *{
     margin: 0;
     padding: 0;
 }
-/* Adicionando cor de fundo */
+/*Imagem de Fundo adicionado via URL*/
 body{
-    background-color: #ff4500;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-}
-/* Adicionando borda e centralizando */
-#cadastro{
-    background-color: #FFFF;
-    margin: 7em;
-    width: fit-content;
-    padding: 5em;
-    border: 1px solid black;
-    border-radius: 0.3em;
-    position: absolute;
-}
-/* Adicionando cor do título e centralizando o texto */
-#titulo{
-    color: #ff4500;
-    display: flex;
-    justify-content: center;
-    margin-top: -14%;
-}
-/* Centralizando o subtítulo */
-#subtitulo{
-    display: flex;
-    justify-content: center;
-}
-/* Centralizando a borda */
-.campo label {
-    margin-bottom: 2.5em;
-    color: black;
-    display: inline-table;
+    background-image: url(https://images.unsplash.com/photo-1444090542259-0af8fa96557e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
 }
