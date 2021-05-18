@@ -5,4 +5,43 @@
 /*Imagem de Fundo adicionado via URL*/
 body{
     background-image: url(https://images.unsplash.com/photo-1444090542259-0af8fa96557e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 90px;
+}
+
+#cadastro{
+    width: 800px;
+    margin: auto;
+    color: #000000;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 7px;
+    
+}
+.titulo{
+    color: #000000;
+}
+
+#nome{
+    width: 600px;
+    height: 25px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#cpf{
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#rg{
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    margin-bottom: 10px;
 }

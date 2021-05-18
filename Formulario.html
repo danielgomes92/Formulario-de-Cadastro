@@ -8,26 +8,26 @@
 
 <body>
     <div id="cadastro">
-        <div>
-            <h1 id="titulo">Formulário de Cadastro</h1>
-            <p id="subtitulo">Complete suas informações</p>
+        <div class="titulo">
+            <h1>Formulário de Cadastro</h1>
+            <h2><p>Complete suas informações</p></h2>
             <br>
         </div>
 
-        <form>
-            <div class="nome">
+        <form class="registro">
+            <div class="campo1">
                 <label for="nome"><strong>Nome:</strong></label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
             </div>
 
-            <div class="identidade">
+            <div class="campo2">
                 <label for="cpf"><strong>CPF:</strong></label>
                 <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
                 <label for="rg"><strong>RG:</strong></label>
                 <input type="text" name="rg" id="rg" placeholder="Digite seu RG" required>
             </div>
 
-            <div class="sexo">
+            <div class="campo3">
                 <label><strong>Sexo:</strong></label>
                 <label>
                     <input type="radio" name="sexo" value="M"> Masculino
@@ -39,26 +39,26 @@
                 <input type="text" name="cep" id="cep" placeholder="Digite seu CEP" required>
             </div>
 
-            <div class="campo-4">
+            <div class="campo4">
                 <label for="endereco"><strong>Endereço:</strong></label>
                 <input type="text" name="endereco" id="endereco" placeholder="Ex.: Rua, Avenida, etc.">
             </div>
 
-            <div class="campo-5">
+            <div class="campo5">
                 <label for="numero"><strong>Número:</strong></label>
                 <input type="text" name="numero" id="numero" placeholder="Digite o Numero">
                 <label for="bairro"><strong>Bairro:</strong></label>
                 <input type="text" name="bairro" id="bairro" placeholder="Digite o Bairro">
             </div>
 
-            <div class="campo-6">
+            <div class="campo6">
                 <label for="cidade"><strong>Cidade:</strong></label>
                 <input type="text" name="cidade" id="cidade" placeholder="Digite a Cidade">
                 <label for="estado"><strong>Estado:</strong></label>
                 <input type="text" name="estado" id="estado" placeholder="Digite o Estado">
             </div>
 
-            <div class="campo-7">
+            <div class="campo7">
                 <label for="telefone"><strong>Telefone:</strong></label>
                 <input type="text" name="telefone" id="telefone" placeholder="Ex.:(99)99999-9999">
                 <label for="celular"><strong>Celular:</strong></label>
@@ -68,7 +68,13 @@
             <button class="button" type="submit">Enviar</button>
 
         </form>
-    </div>    
+        
+    </div>
+    
+    <br>
+    <br>
+    <hr>
+    
 </body>
 
 </html>
