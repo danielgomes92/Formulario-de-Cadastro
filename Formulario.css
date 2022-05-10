@@ -3,79 +3,103 @@
     padding: 0;
 }
 /*Imagem de Fundo adicionado via URL*/
-body{
+body {
     background-image: url(https://images.unsplash.com/photo-1444090542259-0af8fa96557e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
-    background-position: center;
-    background-size: cover;
-    font-family: sans-serif;
-    margin-top: 5px;
+    background-size: fixed;
+    width: 100%;
+    repeat: no-repeat;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 9em;
+    margin-bottom: 9em;
 }
 
-form{
-    padding: 10px;
-    
+form label {
+    display: block;
+    padding: 2px;
+    margin: 0 auto;
+    /* line-height: 3em; */
 }
 
-#cadastro{
-    width: 60em;
-    margin: auto;
+#cadastro {
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid;
+    width: 50%;
+
+    /* width: 60em;
+    margin: 0 auto;
     color: #000000;
     padding: 10px 0px 10px 0px;
     border: 1px solid;
     border-radius: 7px;
-    background: #FFFFFF;
+    background: #FFFFFF; */
 }
 
-fieldset{
+.titulo #titulo {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* color: #F4500F;
+    margin-top: 1em;
+    text-align: center; */
+}
+
+.titulo #subtitulo {
+
+    /* color: #000000;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    text-align: center; */
+}
+
+fieldset {
+    margin: 0 auto;
     border: 0;
 }
 
 label {
-	float: left;
     margin: 0 auto;
-    text-align: center;
+    width: 80%;
+    color: #FFF;
+    text-align: left;
+	/* float: left;
+    margin: 0 auto;
+    text-align: center; */
 }
 
-.titulo #titulo{
-    color: #F4500F;
-    margin-top: 1em;
-    text-align: center;
-}
+input {
+    display: inline-block;
+    padding-left: 10px;
+  }
 
-.titulo #subtitulo{
-    color: #000000;
-    margin-top: 1em;
-    margin-bottom: 1.5em;
-    text-align: center;
-}
-
-#nome{
-    top: 2px;
-    line-height: 30px;
-    width: 500px;
+#nome {
+    border: 2px solid orangered;
     border-radius: 4px;
-    margin-bottom: 25px;
-    padding: 0 22px;
-    font-size: 13px;
-    margin-left: 16.5em;
-    display: block;
+    padding: 7px;
+    font-size: 14px;
     color: black;
-}
+    width: 50%;
 
-#cpf{
-    top: 2px;
-    margin-bottom: 25px;
+    /* top: 2px;
     line-height: 30px;
     width: 500px;
     border-radius: 4px;
+    margin-bottom: 25px;
     padding: 0 22px;
     font-size: 13px;
     margin-left: 16.5em;
     display: block;
+    color: black; */
+}
+
+#cpf {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
     color: black;
-}
+    width: 50%;
 
-#rg{
+    /* top: 2px;
     margin-bottom: 25px;
     line-height: 30px;
     width: 500px;
@@ -84,45 +108,92 @@ label {
     font-size: 13px;
     margin-left: 16.5em;
     display: block;
+    color: black; */
+}
+
+#rg {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
     color: black;
-}
+    width: 50%;
 
-#sexo{
-    margin-left: 13em;
-    top: 2px;
+    /* margin-bottom: 25px;
     line-height: 30px;
-    margin-bottom: 25px;
-    padding: 0 22px;
-}
-
-#cep{
-    top: 2px;
-    line-height: 30px;
-    width: 500px;
-    margin-left: 16.5em;
-    margin-bottom: 25px;
-    border-radius: 4px;
-    padding: 0 22px;
-    font-size: 13px;
-    display: block;
-    color: black; 
-}
-
-#endereco{
-    display: block;
-    top: 2px;
-    line-height: 30px;
-    margin-bottom: 25px;
-    margin-left: 16.5em;
     width: 500px;
     border-radius: 4px;
     padding: 0 22px;
     font-size: 13px;
+    margin-left: 16.5em;
+    display: block;
+    color: black; */
+}
+
+#sexo {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
     color: black;
+
+    /* margin-left: 13em;
+    top: 2px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    padding: 0 22px; */
 }
 
-#numero{
+
+
+#cep {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    color: black;
+    width: 50%;
+
+    /* top: 2px;
+    line-height: 30px;
+    width: 500px;
+    margin-left: 16.5em;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding: 0 22px;
+    font-size: 13px;
+    display: block;
+    color: black;  */
+}
+
+#endereco {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    color: black;
+    width: 50%;
+    /* display: block;
     top: 2px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    margin-left: 16.5em;
+    width: 500px;
+    border-radius: 4px;
+    padding: 0 22px;
+    font-size: 13px;
+    color: black; */
+}
+
+#numero {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    color: black;
+    width: 50%;
+    
+    /* top: 2px;
     margin-bottom: 25px;
     margin-left: 16.5em;
     line-height: 30px;
@@ -131,11 +202,18 @@ label {
     border-radius: 4px;
     padding: 0 22px;
     font-size: 13px;
-    color: black;
+    color: black; */
 }
 
-#bairro{
-    display: block;
+#bairro {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    color: black;
+    width: 50%;
+
+    /* display: block;
     top: 2px;
     line-height: 30px;
     width: 500px;
@@ -144,11 +222,18 @@ label {
     border-radius: 4px;
     padding: 0 22px;
     font-size: 13px;
-    color: black;
+    color: black; */
 }
 
-#cidade{
-    top: 2px;
+#cidade {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    color: black;
+    width: 50%;
+
+    /* top: 2px;
     line-height: 30px;
     margin-bottom: 25px;
     margin-left: 16.5em;
@@ -157,11 +242,18 @@ label {
     display: block;
     padding: 0 22px;
     font-size: 13px;
-    color: black;
+    color: black; */
 }
 
-#estado{
-    top: 2px;
+#estado {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    color: black;
+    width: 50%;
+
+    /* top: 2px;
     line-height: 30px;
     margin-bottom: 25px;
     margin-left: 16.5em;
@@ -170,11 +262,18 @@ label {
     display: block;
     padding: 0 22px;
     font-size: 13px;
-    color: black;
+    color: black; */
 }
 
-#telefone{
-    top: 2px;
+#telefone {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    color: black;
+    width: 50%;
+
+    /* top: 2px;
     margin-bottom: 25px;
     margin-left: 16.5em;
     line-height: 30px;
@@ -183,11 +282,18 @@ label {
     padding: 0 22px;
     font-size: 13px;
     display: block;
-    color: black;
+    color: black; */
 }
 
-#celular{
-    top: 2px;
+#celular {
+    border: 2px solid orangered;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    color: black;
+    width: 50%;
+
+    /* top: 2px;
     margin-bottom: 25px;
     margin-left: 16.5em;
     line-height: 30px;
@@ -196,23 +302,35 @@ label {
     padding: 0 22px;
     font-size: 13px;
     display: block;
-    color: black;
+    color: black; */
 }
 
-.registro input:focus{
+.registro input:focus {
     background: rgb(241, 239, 239);
 }
 
-.button{
-    width: 150px;
+.button {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 20%;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: orangered;
+    cursor: pointer;
+    transition: 300ms;
+
+    /* width: 150px;
     height: 40px;
     font-size: large;
     margin-top: 30px;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 .button:hover{
-    background-color: #F4500F;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 2);
+    background-color: black;
+    color: orangered;
+    box-shadow: inset 2px 2px white;
 }

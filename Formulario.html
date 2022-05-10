@@ -1,8 +1,12 @@
 <html>
 
 <head>
-    <title>Formulário de Cadastro</title>
+    <title>Cadastro</title>
 </head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Oleo+Script:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="Formulario.css" />
 
@@ -10,56 +14,108 @@
     <div id="cadastro">
         <div class="titulo">
             <h1 id="titulo"><strong>Formulário de Cadastro</strong></h1>
-            <p id="subtitulo">Complete suas informações</p>
+            <p id="subtitulo">Complete com suas informações</p>
             <br>
         </div>
 
         <form class="registro">
+
             <fieldset>
                 <div class="campo1">
-                    <label for="nome"><strong>Nome:</strong></label>
-                   <input type="text" name="nome" id="nome" placeholder=" Digite seu nome completo" required>
+                    <label for="nome">
+                        <strong>
+                            Nome:
+                        </strong>
+                    </label>
+
+                   <input type="text" name="nome" id="nome" placeholder=" Digite seu nome completo" required> <!--Required é para insistir que o usuário não avance sem completar-->
                  </div>
 
                 <div class="campo2">
-                    <label for="cpf"><strong>CPF:</strong></label>
+                    <label for="cpf">
+                        <strong>
+                            CPF:
+                        </strong>
+                    </label>
+
                     <input type="text" name="cpf" id="cpf" placeholder=" Digite seu CPF" required>
                     <label for="rg"><strong>RG:</strong></label>
                     <input type="text" name="rg" id="rg" placeholder=" Digite seu RG" required>
                 </div>
+
             </fieldset>    
 
             <div class="campo3">
-                <label for="sexo"><strong>Sexo:</strong> </label>
+                <label for="sexo">
+                    <strong>
+                        Sexo:
+                    </strong>
+                </label>
                 <input type="radio" name="sexo" id="sexo" value="M"> Masculino
                 <input type="radio" name="sexo" id="sexo" value="F"> Feminino
             </div>
 
             <div class="campo4">
-                <label for="cep"><strong>CEP:</strong></label>
+                <label for="cep">
+                    <strong>
+                        CEP:
+                    </strong>
+                </label>              
                 <input type="text" name="cep" id="cep" placeholder=" Digite seu CEP" required>
-                <label for="endereco"><strong>Endereço:</strong></label>
+
+                <label for="endereco">
+                    <strong>
+                        Endereço:
+                    </strong>
+                </label>
                 <input type="text" name="endereco" id="endereco" placeholder=" Ex.: Rua, Avenida, etc." required>
             </div>
 
             <div class="campo5">
-                <label for="numero"><strong>Número:</strong></label>
+                <label for="numero">
+                    <strong>
+                        Número:
+                    </strong>
+                </label>
                 <input type="text" name="numero" id="numero" placeholder=" Digite o Numero" required>
-                <label for="bairro"><strong>Bairro:</strong></label>
+                
+                <label for="bairro">
+                    <strong>
+                        Bairro:
+                    </strong>
+                </label>
                 <input type="text" name="bairro" id="bairro" placeholder=" Digite o Bairro">
             </div>
 
             <div class="campo6">
-                <label for="cidade"><strong>Cidade:</strong></label>
+                <label for="cidade">
+                    <strong>
+                        Cidade:
+                    </strong>
+                </label>
                 <input type="text" name="cidade" id="cidade" placeholder=" Digite a Cidade">
-                <label for="estado"><strong>Estado:</strong></label>
+
+                <label for="estado">
+                    <strong>
+                        Estado:
+                    </strong>
+                </label>
                 <input type="text" name="estado" id="estado" placeholder=" Digite o Estado">
             </div>
 
             <div class="campo7">
-                <label for="telefone"><strong>Telefone:</strong></label>
+                <label for="telefone">
+                    <strong>
+                        Telefone:
+                    </strong>
+                </label>
                 <input type="text" name="telefone" id="telefone" placeholder=" Ex.:(99)99999-9999" required>
-                <label for="celular"><strong>Celular:</strong></label>
+                
+                <label for="celular">
+                    <strong>
+                        Celular:
+                    </strong>
+                </label>
                 <input type="text" name="celular" id="celular" placeholder=" Ex.:(21)99999-9999" required>
             </div>
 
@@ -72,6 +128,7 @@
     <br>
     <br>
     <hr>
+
     <footer>
        <strong> Desfio itaútech. Site criado por Daniel Gomes </strong>
     </footer>
